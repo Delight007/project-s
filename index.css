@@ -7,6 +7,7 @@
     width: 25%;
     height: 100vh;
     background-color: white;
+    float: left;
 }
 
 .mg{
@@ -41,11 +42,11 @@ h2{
     margin-top:15px;
     box-sizing: border-box;
 }
-ul{
+.menu ul{
     margin-top:10;
 }
 
-ul li{
+.menu ul li{
    margin-top: 6px;
    padding: 14px 20px;
    list-style: none;
@@ -54,7 +55,6 @@ transition: .3s;
 }
 
 ul li.port:hover{
-    border-left: 1px solid #fff;
     background-color: lightgray;
     color: black;
 }
@@ -75,11 +75,8 @@ ul li.port a:hover{
     font-weight: 400;
 } 
 ul li:hover{
-    border-left: 1px solid #fff;
     background-color: lightgray;
     color: black;
-    
-
 }
   
 i{
@@ -88,7 +85,7 @@ i{
 }
 body{
     width: 100%;
-    background-color:lightgray;
+    background-color:gray;
 }
 .dd a{
     text-decoration:none ;
@@ -117,4 +114,63 @@ body{
 }
 .menu a i:hover{
     color: lightgray;
+}
+.mcont{
+    width: 75%;
+    background-color: lightgray;
+    float: right;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+}
+.hd{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family:Verdana;
+    font-weight: 500;
+}
+.pag{
+    margin-top: 30px;
+    
+}
+.p{
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.op {
+
+    margin-top: 30px;
+
+}
+.op ul{
+    margin-left: 30px;
+    margin-right: 0;
+} 
+.op ul li{
+    display: inline;
+}
+.op ul li button a{
+    text-decoration: none;
+    color: black;
+}
+
+.op button{
+    border: none;
+    background-color: #fff;
+    text-transform: capitalize;
+    padding: 8px 20px;
+   
+}
+.al button{
+    background-color: black;
+    color: #fff;
+    margin-left: 20px;
+    padding: 9px 20px;
+}
+.op ul .al button a {
+    color: #fff;
+    text-transform: uppercase;
 }
