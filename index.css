@@ -4,7 +4,7 @@
    box-sizing: border-box;
 }
 .sidebar{
-    width: 25%;
+    width: 20%;
     height: 100vh;
     background-color: white;
     float: left;
@@ -116,7 +116,7 @@ body{
     color: lightgray;
 }
 .mcont{
-    width: 73%;
+    width: 78%;
     background-color:rgb(241, 228, 228);
     float: right;
     height:100vh;
@@ -148,7 +148,9 @@ body{
     color: black;
     font-size: 18px;
     font-weight: 100;
-    font-family:sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    text-transform: capitalize;
 }
 .op {
 
@@ -165,6 +167,7 @@ body{
 .op ul li button a{
     text-decoration: none;
     color: black;
+
 }
 
 .op button{
@@ -172,15 +175,17 @@ body{
     background-color: #fff;
     text-transform: capitalize;
     padding: 8px 20px;
-   
+   color: #fff;
+}
+.op ul li button:hover{
+    background-color: lightgray;
 }
 .al button{
     background-color: black;
     color: #fff;
-    margin-left: 20px;
-    padding: 9px 20px;
 }
-.op ul .al button a {
+
+.op ul .al button a{
     color: #fff;
     text-transform: uppercase;
 }
