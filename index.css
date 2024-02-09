@@ -113,7 +113,7 @@ body {
   color: lightgray;
 }
 .mcont {
-  width: 77%;
+  width: 75%;
   background-color: rgb(241, 228, 228);
   float: right;
   margin: 0;
@@ -258,7 +258,7 @@ p {
   padding: 10px 10px;
 }
 .About {
-  width: 78%;
+  width: 76%;
   margin-top: 10px;
   float: right;
   padding: 10px;
