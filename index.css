@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif !important;
 }
 .sidebar {
   width: 300px;
@@ -33,7 +33,7 @@ h2 {
 
 .pg1 {
   font-size: 16px;
-  margin-left: 20px;
+  margin-left: 0;
   color: rgb(160, 152, 152);
   font-weight: 200;
   margin-top: 18px;
@@ -48,7 +48,7 @@ h2 {
 
 .menu ul li {
   margin-top: 6px;
-  padding: 14px 20px;
+  padding: 8px 16px;
   list-style: none;
   cursor: pointer;
   transition: 0.3s;
@@ -84,7 +84,7 @@ i {
 }
 body {
   width: 100%;
-  background-color: rgb(241, 228, 228);
+  background-color: #f1f1f1;
 }
 .dd a {
   text-decoration: none;
@@ -114,7 +114,7 @@ body {
 }
 .mcont {
   width: 75%;
-  background-color: rgb(241, 228, 228);
+  background-color: #f1f1f1;
   float: right;
   margin: 0;
   padding: 0;
@@ -124,8 +124,8 @@ body {
 }
 .hd {
   margin-left: 5px;
-  font-size: 35px;
-  font-family: Verdana;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif !important;
   font-weight: 500;
 }
 .pag {
@@ -246,14 +246,14 @@ p {
 }
 .pics .pic1 {
   width: 49%;
-  height: 250px;
+  height: 318px;
   float: left;
   padding: 10px 10px;
 }
 
 .pics .pic2 {
   width: 49%;
-  height: 250px;
+  height: 318px;
   float: right;
   padding: 10px 10px;
 }
@@ -263,6 +263,11 @@ p {
   float: right;
   padding: 10px;
   margin-left: 0;
+}
+.About .Abt {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 500;
 }
 .About .Apag {
   width: 80%;
@@ -277,8 +282,8 @@ p {
 }
 .tech {
   margin: 50px 0;
-  border-top: 1px solid rgb(223, 210, 210);
-  border-bottom: 1px solid rgb(223, 210, 210);
+  border-top: 1px solid rgb(240, 224, 224);
+  border-bottom: 1px solid rgb(240, 224, 224);
 }
 .tech h4 {
   font-size: 20px;
@@ -292,7 +297,7 @@ p {
 
   width: 100%;
   height: 40px;
-  background-color: gray;
+  background-color: #9e9e9e;
 }
 .poto {
   background-color: #616161 !important;
@@ -325,4 +330,25 @@ p {
   background-color: #616161;
   border: none;
   color: #fff;
+}
+.chrg {
+  width: 100%;
+}
+.chrg h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 200;
+}
+
+.chrg .ox1 {
+  margin-top: 20px;
+  width: 32%;
+  min-height: 333px;
+  float: left;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.chrg .ox1:nth-child(2) {
+  margin-left: 1%;
+  margin-right: 1%;
 }
