@@ -602,7 +602,7 @@ hr {
 .anime {
   opacity: 0;
   transform: translateX(30px);
-  animation: moveright 02s linear forwards;
+  animation: moveright 0.4s linear forwards;
 }
 @keyframes moveright {
   100% {
